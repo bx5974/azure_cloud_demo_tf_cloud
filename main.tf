@@ -4,7 +4,7 @@ resource "azurerm_resource_group" "myterraformgroup" {
   location = var.location
 }
 
-/*
+
 resource "azurerm_virtual_network" "myterraformnetwork" {
   name                = "myVnet"
   address_space       = ["10.0.0.0/16"]
@@ -93,5 +93,3 @@ resource "random_string" "sshpassword" {
   length  = 16
   special = true
 }
-*/
-
